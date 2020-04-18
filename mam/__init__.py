@@ -2,4 +2,5 @@
 """
 
 import mam.core
+import mam.plugin
 
