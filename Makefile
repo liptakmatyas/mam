@@ -14,5 +14,5 @@ ut: test-install
 test: test-install ut
 
 todo:
-	@git grep -qnP 'TODO|FIXME' | grep -qv 'THIS_EXACT_LINE_RIGHT_HERE' || true
+	@git grep -nP 'TODO|FIXME' | grep -v 'THIS_EXACT_LINE_RIGHT_HERE'
 
