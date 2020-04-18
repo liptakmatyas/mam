@@ -1,0 +1,6 @@
+#   Default requirements
+-r requirements.txt
+
+#   Testing requirements
+pytest>=5.4.1
+
